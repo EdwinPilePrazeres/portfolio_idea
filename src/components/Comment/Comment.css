@@ -1,0 +1,154 @@
+/* Fifth session */
+.fifth_session {
+  min-height: 100vh;
+  background: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.fifth_session .title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.comments_grid {
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+}
+.fifth_session .quote {
+  font-family: "Merriweather", serif;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  min-width: 316px;
+  min-height: 170px;
+  width: fit-content;
+  font-size: x-large;
+  border: 1px solid #ae6f2f;
+  padding: 3% 5%;
+  border-radius: 20px 50px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
+  margin: 3% auto;
+  transition: 0.5s;
+}
+.fifth_session .quote p {
+  text-align: center;
+  margin: 10px 0;
+}
+.fifth_session .form {
+  position: absolute;
+  bottom: 25%;
+  right: 5%;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  /* background: #303841; */
+  transition: width 0.5s, height 0.5s;
+  transition-delay: 0.75s, 0s;
+  z-index: 100;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.fifth_session .form.active {
+  /* width: 85%; */
+  width: 40%;
+  height: 350px;
+  /* height: 130px; */
+  /* height: 270px; */
+  transition: width 0.5s, height 0.5s;
+  transition-delay: 0s, 0.75s;
+  border: 0.5px solid #303841;
+}
+.fifth_session .form .toggle {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background: #303841; */
+  background: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.fifth_session .form .toggle.active {
+  background: #3a4750;
+}
+.fifth_session .form .toggle.active h2 {
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 1.2em;
+  }
+.fifth_session .form .toggle::before {
+  content: "+";
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  /* color: #fff; */
+  color: #303841;
+  font-weight: 400;
+  transition: 0.5s;
+}
+.fifth_session .form .toggle.active::before {
+  transform: rotate(315deg);
+  color: #fff;
+  /* content: "Add some comment!"; */
+}
+.fifth_session .form .input {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  /* height: 80px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 19px;
+}
+
+.fifth_session .form .input input,
+.input button {
+  padding: 0.5rem;
+  font-size: 12pt;
+  background: #fff;
+  outline: none;
+  border: none;
+  margin: 0.5rem;
+}
+.fifth_session .form .input input {
+  width: 85%;
+  border: 1px solid #6699cc;
+}
+.fifth_session .form .input button {
+  color: #fff;
+  background: #303841;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+}
+.fifth_session .form .input button:hover {
+  background: #fff;
+  color: #303841;
+  border: 1px solid #303841;
+}

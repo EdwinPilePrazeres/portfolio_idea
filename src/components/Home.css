@@ -12,6 +12,7 @@ nav {
   color: #bdc9c9;
   z-index: 10;
   height: 80px;
+  text-transform: uppercase;
 }
 
 nav ul {
@@ -20,15 +21,17 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 0;
+  margin: 0 20px;
 }
 
-nav ul li:hover {
+nav ul:last-child li:hover {
   border-bottom: 3px solid #fff;
   margin-bottom: -3px;
   color: #fff;
   cursor: pointer;
 }
+
 
 .first_session {
   position: relative;
@@ -144,7 +147,6 @@ nav ul li:hover {
   grid-gap: 20px;
   z-index: 5;
   background-color: #fff;
-  border: 1px solid blue;
 }
 .second_session .cards_session .cards {
   position: relative;
@@ -154,7 +156,6 @@ nav ul li:hover {
   background: #fff;
   border-radius: 10px;
   transition: 0.5s;
-  border: 1px solid blue;
   overflow: hidden;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
@@ -216,7 +217,6 @@ nav ul li:hover {
 .cards .img_box {
   height: 45%;
   width: 100%;
-  border: 1px solid #dfb891;
   position: relative;
 }
 .cards .img_box img {
@@ -261,103 +261,6 @@ nav ul li:hover {
   z-index: 5;
 }
 
-/* Third Session */
-
-.third_session {
-  min-height: 100vh;
-  background: #c5c5c5;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.third_session .container {
-  position: relative;
-  width: 100%;
-  /* min-width: 400px; */
-  max-width: 600px;
-  min-height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid red;
-}
-.third_session .container .bg_img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.testing {
-  width: 430px;
-  height: 240px;
-  border: 1px solid blue;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -66%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.testing img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.testing .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    width: 50%;
-    height: 100%;
-    z-index: 10;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 10px;
-    transition: 0.5s;
-}
-.testing .content h3 {
-    font-size: 18px;
-}
-.testing .content p {
-    font-size: 16px;
-}
-.testing .content a {
-    text-decoration: none;
-    color: #ae6f2f;
-    font-weight: 600;
-    transition: 0.5s;
-    font-size: small;
-    display: flex;
-    align-items: center;
-}
-.testing .content a .icon {
-    margin-left: 2px;
-    transition: 0.5s;
-}
-.testing .content a:hover .icon {
-    margin-left: 10px;
-}
-.testing:hover {
-    cursor: pointer;
-}
-.testing:hover .content {
-    opacity: 1;
-}
-
-.third_session .wave {
-}
 
 /* Fourth Session */
 .fourth_session {
@@ -393,50 +296,6 @@ nav ul li:hover {
   margin: 20px 0;
 }
 
-/* Fifth session */
-.fifth_session {
-  min-height: 100vh;
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
 
-/* sixth Session */
-.sixth_session {
-  min-height: 100vh;
-  background: #c5c5c5;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
 
-/* footer */
-.footer {
-  background: #000;
-  min-height: 40vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  color: #fff;
-}
-.footer .container {
-  border: 1px solid white;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.footer .container .grid {
-  margin: auto;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid white;
-}
+
