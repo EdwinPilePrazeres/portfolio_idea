@@ -31,6 +31,10 @@ nav ul:last-child li:hover {
   color: #fff;
   cursor: pointer;
 }
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
 
 
 .first_session {

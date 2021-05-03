@@ -21,7 +21,7 @@ const Navbar = () => {
         <li><LinkS to="about">About Me</LinkS></li>
         <li><LinkS to="comments">Comments</LinkS></li>
         <li><LinkS to="contact">Contact</LinkS></li>
-        <li><Link to="https://github.com/EdwinPilePrazeres/Resume/blob/master/EdwinPile-CurriculumVitae_en.docx?raw=true" download>Download CV <FaDownload /></Link></li>
+        <li><Link target="_blank" to="https://github.com/EdwinPilePrazeres/Resume/raw/master/EdwinPile-CurriculumVitae_en.pdf" download>Download CV <FaDownload /></Link></li>
       </ul>
     </nav>
   );
