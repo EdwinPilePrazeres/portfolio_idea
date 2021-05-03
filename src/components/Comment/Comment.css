@@ -62,8 +62,10 @@
 }
 .fifth_session .form.active {
   /* width: 85%; */
-  width: 40%;
-  height: 350px;
+  max-width: 630px;
+  width: 90%;
+  max-height: 350px;
+  height: 90%;
   /* height: 130px; */
   /* height: 270px; */
   transition: width 0.5s, height 0.5s;
