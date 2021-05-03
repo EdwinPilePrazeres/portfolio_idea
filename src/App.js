@@ -11,7 +11,7 @@ const App = () => {
     return (
         <Router className='App'>
             <Switch>
-                <Route path='/portfolio_idea' component={Home} exact/>
+                <Route path='/' component={Home} exact/>
             </Switch>
         </Router>
     )
