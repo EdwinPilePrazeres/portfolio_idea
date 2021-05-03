@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_idea/static/css/main.b97fa3bb.chunk.css",
+    "main.css": "/portfolio_idea/static/css/main.ffa3ca90.chunk.css",
     "main.js": "/portfolio_idea/static/js/main.7e9561ef.chunk.js",
     "main.js.map": "/portfolio_idea/static/js/main.7e9561ef.chunk.js.map",
     "runtime-main.js": "/portfolio_idea/static/js/runtime-main.8823dcbd.js",
@@ -8,7 +8,7 @@
     "static/js/2.bb8ec6a6.chunk.js": "/portfolio_idea/static/js/2.bb8ec6a6.chunk.js",
     "static/js/2.bb8ec6a6.chunk.js.map": "/portfolio_idea/static/js/2.bb8ec6a6.chunk.js.map",
     "index.html": "/portfolio_idea/index.html",
-    "static/css/main.b97fa3bb.chunk.css.map": "/portfolio_idea/static/css/main.b97fa3bb.chunk.css.map",
+    "static/css/main.ffa3ca90.chunk.css.map": "/portfolio_idea/static/css/main.ffa3ca90.chunk.css.map",
     "static/js/2.bb8ec6a6.chunk.js.LICENSE.txt": "/portfolio_idea/static/js/2.bb8ec6a6.chunk.js.LICENSE.txt",
     "static/media/4.e822fa08.jpg": "/portfolio_idea/static/media/4.e822fa08.jpg",
     "static/media/api_weather.PNG": "/portfolio_idea/static/media/api_weather.a4ec0bd7.PNG",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.8823dcbd.js",
     "static/js/2.bb8ec6a6.chunk.js",
-    "static/css/main.b97fa3bb.chunk.css",
+    "static/css/main.ffa3ca90.chunk.css",
     "static/js/main.7e9561ef.chunk.js"
   ]
 }
